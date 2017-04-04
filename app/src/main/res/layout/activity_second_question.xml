@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/space3"
+    tools:context="com.example.android.spacequiz.FirstQuestion">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/show_user_score"
+            style="@style/AppScoreText" />
+
+        <TextView
+            style="@style/QuestionsAndSubHeading"
+            android:id="@+id/first_question"
+            android:layout_marginLeft="@dimen/margin_lg"
+            android:layout_marginRight="@dimen/margin_lg"
+            android:layout_marginTop="@dimen/margin_sm"
+            android:text="@string/second_question" />
+
+        <ImageView
+            android:id="@+id/astroid"
+            style="@style/ImageIcons"
+            android:layout_marginBottom="@dimen/margin_md"
+            android:layout_marginLeft="@dimen/margin_lg"
+            android:layout_marginRight="@dimen/margin_lg"
+            android:layout_marginTop="@dimen/margin_xl"
+            android:src="@drawable/astroid" />
+
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal"
+            android:layout_marginBottom="@dimen/margin_md"
+            android:layout_marginTop="@dimen/margin_md" >
+
+            <RadioButton
+                android:id="@+id/second_answer_one"
+                style="@style/CheckBoxField"
+                android:layout_marginBottom="@dimen/margin_lg"
+                android:layout_marginLeft="@dimen/margin_lg"
+                android:layout_marginRight="@dimen/margin_md"
+                android:text="@string/second_answer_first"
+                android:onClick="onRadioButtonTapped"
+                android:textSize="@dimen/smaller_text" />
+
+            <RadioButton
+                android:id="@+id/second_answer_second"
+                style="@style/CheckBoxField"
+                android:layout_marginBottom="@dimen/margin_lg"
+                android:layout_marginLeft="@dimen/margin_md"
+                android:layout_marginRight="@dimen/margin_md"
+                android:text="@string/second_answer_second"
+                android:onClick="onRadioButtonTapped"
+                android:textSize="@dimen/smaller_text" />
+
+
+            <RadioButton
+                android:id="@+id/second_answer_third"
+                style="@style/CheckBoxField"
+                android:layout_marginBottom="@dimen/margin_lg"
+                android:layout_marginLeft="@dimen/margin_md"
+                android:layout_marginRight="@dimen/margin_lg"
+                android:text="@string/second_answer_third"
+                android:onClick="onRadioButtonTapped"
+                android:textSize="@dimen/smaller_text" />
+
+
+        </RadioGroup>
+
+        <ImageView
+            style="@style/ImageIcons"
+            android:layout_marginLeft="@dimen/margin_lg"
+            android:layout_marginRight="@dimen/margin_lg"
+            android:layout_marginTop="@dimen/margin_lg"
+            android:src="@drawable/oval2" />
+
+
+        <Button
+            android:onClick="checkAnswers"
+            android:layout_marginTop="@dimen/margin_lg"
+            style="@style/QuizButton"
+            android:text="@string/app_next" />
+
+
+
+    </LinearLayout>
+
+</ScrollView>

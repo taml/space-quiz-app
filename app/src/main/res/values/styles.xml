@@ -1,0 +1,91 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+    <style name="QuestionsAndSubHeading">
+
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">@dimen/title_secondary</item>
+        <item name="android:fontFamily">sans-serif-regular</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+
+    <style name="QuizAppGenericText">
+
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+
+    <style name="ImageIcons">
+
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+    </style>
+
+
+    <style name="EditTextField">
+
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textColorHint">@android:color/white</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:layout_marginRight">@dimen/margin_md</item>
+        <item name="android:layout_marginBottom">@dimen/margin_md</item>
+        <item name="android:layout_marginLeft">@dimen/margin_md</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:gravity">center</item>
+        <item name="android:inputType">textCapWords</item>
+        <item name="android:textSize">@dimen/smaller_text</item>
+    </style>
+
+
+    <style name="CheckBoxField">
+
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingLeft">@dimen/padding_sm</item>
+        <item name="android:buttonTint">@color/colorAccent</item>
+    </style>
+
+
+    <style name="QuizButton">
+
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/smaller_text</item>
+        <item name="android:padding">@dimen/padding_md</item>
+        <item name="android:fontFamily">sans-serif-regular</item>
+        <item name="android:layout_marginRight">@dimen/margin_md</item>
+        <item name="android:layout_marginBottom">@dimen/margin_md</item>
+        <item name="android:layout_marginLeft">@dimen/margin_md</item>
+        <item name="android:background">@color/colorAccent</item>
+    </style>
+
+
+    <style name="AppScoreText">
+
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">@dimen/margin_md</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">@dimen/see_score</item>
+        <item name="android:textStyle">italic</item>
+    </style>
+
+</resources>

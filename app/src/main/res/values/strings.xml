@@ -1,0 +1,53 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Space Quiz</string>
+    <string name="app_welcome">Welcome to the Space Quiz</string>
+    <string name="app_welcome_sub">Test your knowledge on the wonders of outer space!</string>
+    <string name="app_user">Please enter your first name here</string>
+    <string name="app_user_score">See your score during the game?</string>
+    <string name="app_button">Continue</string>
+
+    <string name="app_next">Next</string>
+
+    <string name="guest">Guest</string>
+    <string name="score_information"><xliff.g id="name" example="Tam">%s</xliff.g>: <xliff:g id="score" example="2">%d</xliff:g></string>
+
+
+    <string name="first_question"><xliff.g id="neptune" example="Neptune">Neptune</xliff.g> has 14 moons, which are three of them?</string>
+    <string name="first_answer_first"><xliff.g id="naiad" example="Naiad">Naiad</xliff.g></string>
+    <string name="first_answer_second"><xliff.g id="thalassa" example="Thalassa">Thalassa</xliff.g></string>
+    <string name="first_answer_third"><xliff.g id="arago" example="Arago">Arago</xliff.g></string>
+    <string name="first_answer_fourth"><xliff.g id="despina" example="Despina">Despina</xliff.g></string>
+
+    <string name="second_question">How many miles across is the biggest Asteroid?</string>
+    <string name="second_answer_first">207</string>
+    <string name="second_answer_second">437</string>
+    <string name="second_answer_third">580</string>
+
+    <string name="third_question">What year did man first walk on the moon?</string>
+    <string name="third_answer_prompt">Please enter a full year answer here</string>
+    <string name="third_answer_first">1969</string>
+
+    <string name="fourth_question">How many mph does the <xliff.g id="hubble" example="Hubble">Hubble</xliff.g> telescope travel at?</string>
+    <string name="fourth_answer_first">17,000</string>
+    <string name="fourth_answer_second">21,000</string>
+
+    <string name="fifth_question">Which two temperatures can <xliff.g id="mars_rover" example="Mars Rover">Mars Rover</xliff.g> not exceed?</string>
+    <string name="fifth_answer_first">-81 <xliff.g id="fahrenheit" example="F">F</xliff.g></string>
+    <string name="fifth_answer_second">-40 <xliff.g id="fahrenheit" example="F">F</xliff.g></string>
+    <string name="fifth_answer_third">81 <xliff.g id="fahrenheit" example="F">F</xliff.g></string>
+    <string name="fifth_answer_fourth">104 <xliff.g id="fahrenheit" example="F">F</xliff.g></string>
+
+    <string name="final_score">You scored <xliff:g id="score_final" example="5">%d</xliff:g> / 5!</string>
+
+    <string name="scored_well">You did well <xliff.g id="name_well" example="Tam">%s</xliff.g>, you know a lot of things about space!</string>
+    <string name="scored_ok">You did okay <xliff.g id="name_ok" example="Tam">%s</xliff.g>, you know one or two things about space!</string>
+    <string name="scored_low">Oh dear <xliff.g id="name_low" example="Tam">%s</xliff.g>, you might need to learn a bit more about space!</string>
+
+    <string name="app_share_results_friend">Share your results with a friend?</string>
+    <string name="app_share_results">Share Results</string>
+
+    <string name="email_subject">Space Quiz App Score - Can you beat your friend!?</string>
+    <string name="email_message">"Hello! Your friend <xliff.g id="email_name" example="Tam">%s</xliff.g> scored <xliff:g id="email_score_final" example="4">%d</xliff:g> / 5 on the Space Quiz App. Can you beat <xliff.g id="email_name" example="Tam">%s</xliff.g>? Download Space Quiz now!"</string>
+    <string name="email_guest_message">"Hello! Your friend scored <xliff:g id="email_guest_score_final" example="4">%d</xliff:g> / 5 on the Space Quiz App. Can you beat them? Download Space Quiz now!"</string>
+
+</resources>
